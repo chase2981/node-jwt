@@ -8,6 +8,7 @@ const app = express();
 const router = express.Router();
 
 const environment = process.env.NODE_ENV;
+console.log('environment', environment);
 const stage = require('./config')[environment];
 
 const routes = require('./routes/index.js');
