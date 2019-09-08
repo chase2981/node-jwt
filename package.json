@@ -4,7 +4,8 @@
   "description": "Accompanying repository for scotch article on auth with JWTs and node",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon index.js"
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
